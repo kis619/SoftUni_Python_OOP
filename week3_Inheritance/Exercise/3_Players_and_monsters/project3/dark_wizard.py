@@ -1,0 +1,9 @@
+from project1.wizard import Wizard
+
+
+class DarkWizard(Wizard):
+    def __init__(self, username, level):
+        super().__init__(username, level)
+        self.hero_class = "DarkWizard"
+
+
